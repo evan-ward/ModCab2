@@ -1,0 +1,237 @@
+/* Space out content a bit */
+/*@font-face {
+        font-family: 'BPreplay';
+        src: url('fonts/bpreplay.eot');
+        src: local('://fonts/fonts/bpreplay/'), url('fonts/bpreplay.svg#bpreplay') format('svg'), url('fonts/bpreplay.woff') format('woff'),  url('fonts/bpreplay.ttf') format('truetype');
+ }
+.bpreplay {
+ font-family: 'BPreplay';
+line-height: 140%;
+}*/
+
+body {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  background: url(../images/weeds-ocean.jpg) no-repeat center center fixed;
+  background-size: cover;
+  position: absolute;
+}
+
+/*img {
+  height: auto;
+  width: 75%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding:20px;
+}*/
+
+button {
+  width: 120px;
+  height: 40px;
+  border: 5px solid white;
+  font-family: 'Quicksand', sans-serif;  
+  color: white;
+  font-size: 3.5em;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+
+}
+
+/*.medallion {
+  position: fixed;
+  height: auto;
+  width: 75%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding:20px;
+  border: 10px solid white;
+  border-radius: 100%
+}*/
+
+/*@media (min-width: 400) {*/
+  .center-container {
+    text-align: center;
+    margin:0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 70%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitle {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+}
+
+.button {
+  background: none;
+  color: #fff;
+  padding: 10px 15px;
+  display: inline-block;
+  cursor: pointer;
+  border: 3px solid white;
+  border-radius: 3px;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0 auto;
+  transition: background 0.8s ease;
+}
+
+.button:hover {
+  background: #fff;
+  color: #444;
+  opacity: 45%;
+  transition: color 0.8s ease;
+}
+
+.button:active {
+  background: #fff;
+}
+
+.whereImg {
+  background: url(../images/planks.jpg) no-repeat center center fixed;
+  background-size: cover;
+  position: absolute;
+}
+
+
+
+@media (min-width: 1000px) {
+  img {
+    width: 50%;
+    height: auto;
+  }
+}
+
+
+
+/*}*/
+
+/*@media (max-width: 480px) {
+    .lead {*/
+        /*top: 50%;*/ /* IMPORTANT */
+        /*left: 50%;*/ /* IMPORTANT */
+        /*display: block;*/
+        /*position: absolute;*/
+        /*background: url(images/medallion.png) no-repeat center center;*/
+        /*width: 600px;*/
+        /*height: 600px;*/
+
+        /*margin-top: 50%;*/ /* HALF OF THE HEIGHT */
+        /*margin-left: 50%;*/ /* HALF OF THE WIDTH */
+ /*   }
+}*/
+
+/*body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}*/
+
+/*h1 {
+  font-family: 'BPreplay';
+  color: white;
+  font-size: 6em;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+}*/
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+/*.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+*/
+/* Custom page header */
+/*.header {
+  border-bottom: 1px solid #e5e5e5;
+}*/
+/* Make the masthead heading the same height as the navigation */
+/*.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}*/
+
+/* Custom page footer */
+/*.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}*/
+
+/* Customize container */
+/*@media (min-width: 768px) {
+  .center-container {
+    top: 50%;
+    left: 50%;
+    border: 10px solid white;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    
+}
+  }
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}*/
+
+/* Main marketing message and sign up button */
+/*.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}*/
+
+/* Supporting marketing content */
+/*.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}*/
+
+/* Responsive: Portrait tablets and up */
+/*@media screen and (min-width: 768px) {*/
+  /* Remove the padding we set earlier */
+  /*.header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }*/
+  /* Space out the masthead */
+  /*.header {
+    margin-bottom: 30px;
+  }*/
+  /* Remove the bottom border on the jumbotron for visual effect */
+  /*.jumbotron {
+    border-bottom: 0;
+  }
+}*/
