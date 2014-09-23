@@ -16,23 +16,67 @@ modCabsApp.config(function ($stateProvider, $urlRouterProvider) {
 
       .state('where', {
         url: "/where",
-        templateUrl: "views/where.html"
+        templateUrl: "views/where.html",
+        // controller: "MainCtrl"
     })
 
     .state('climate', {
         url: "/climate",
         templateUrl: "views/climate.html",
-        controller: "ClimateCtrl"
+        // controller: "MainCtrl"
     })
 
-    .state('use', {
-      url: "/use",
-      templateUrl: "views/use.html"
+    .state('mtn', {
+      url: "/mtn",
+      templateUrl: "views/mtn.html",
+      // controller: "MainCtrl"
+    })
+
+    .state('des', {
+      url: "/des",
+      templateUrl: "views/des.html",
+      // controller: "MainCtrl"
+    })
+
+    .state('temp', {
+      url: "/temp",
+      templateUrl: "views/temp.html",
+      // controller: "MainCtrl"
+    })
+
+    .state('coast', {
+      url: "/coast",
+      templateUrl: "views/coast.html",
+      // controller: "MainCtrl"
     })
 
     .state('size', {
       url: "/size",
       templateUrl: "views/size.html",
-      controller: "SizeCtrl"
-    });
+      // controller: "MainCtrl"
+    })
+
+    .state('small', {
+      url: "/small",
+      templateUrl: "views/small.html",
+      // controller: "SmallCtrl"
+    })
+
+    .state('medium', {
+      url: "/medium",
+      templateUrl: "views/medium.html",
+      // controller: "MedCtrl"
+    })
+
+    .state('large', {
+      url: "/large",
+      templateUrl: "views/large.html",
+      // controller: "LargeCtrl"
+    })
+
+    .state('xlarge', {
+      url: "/xlarge",
+      templateUrl: "views/xlarge.html",
+      // controller: "XlargeCtrl"
+    })
   });
