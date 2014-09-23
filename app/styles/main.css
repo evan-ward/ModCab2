@@ -91,8 +91,8 @@ h3 {
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     transform: translate(-50%, -50%);
 }
 
@@ -103,7 +103,7 @@ h3 {
 
 .subtitle {
   font-family: 'Quicksand', sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   color: white;
 }
@@ -135,7 +135,7 @@ h3 {
 }
 
 .ctr-bttn {
-  margin: 0 auto;
+  margin: 40px;
 }
 
 .whereImg {
@@ -159,16 +159,23 @@ h3 {
   margin: 0 auto;
   padding: 30px;
   width: 75%;
+  overflow: scroll;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .center-container img {
     width: 100%;
     height: auto;
   }
 
   .subtitle {
-    font-size: 1.5em;
+    font-size: 1em;
+  }
+
+  .about {
+    width: 100%;
+    height: auto;
+    font-size: 1em;
   }
 }
 
