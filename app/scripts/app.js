@@ -14,10 +14,9 @@ modCabsApp.config(function ($stateProvider, $urlRouterProvider) {
         templateUrl: "views/main.html"
       })
 
-      .state('where', {
-        url: "/where",
-        templateUrl: "views/where.html",
-        // controller: "MainCtrl"
+      .state('about', {
+        url: "/about",
+        templateUrl: "views/about.html",
     })
 
     .state('climate', {

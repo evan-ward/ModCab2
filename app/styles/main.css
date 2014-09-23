@@ -85,7 +85,6 @@ h3 {
   border-radius: 100%*/
 }
 
-/*@media (min-width: 400) {*/
 .center-container {
     text-align: center;
     margin:0 auto;
@@ -113,7 +112,7 @@ h3 {
   border-radius: 3px;
   width: 100px;
   height: 20px;
-  margin:30px;
+  margin:50px;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   transition: background 0.8s ease;
@@ -152,9 +151,9 @@ h3 {
   font-size: 1.5em;
   text-align: center;
   color: #fff;
-  width: 75%;
   margin: 0 auto;
   padding: 30px;
+  width: 75%;
 }
 
 @media (max-width: 800px) {
