@@ -1,42 +1,13 @@
-/* Space out content a bit */
-/*@font-face {
-        font-family: 'BPreplay';
-        src: url('fonts/bpreplay.eot');
-        src: local('://fonts/fonts/bpreplay/'), url('fonts/bpreplay.svg#bpreplay') format('svg'), url('fonts/bpreplay.woff') format('woff'),  url('fonts/bpreplay.ttf') format('truetype');
- }
-.bpreplay {
- font-family: 'BPreplay';
-line-height: 140%;
-}*/
+html {
+  background: url(../images/mtn-lake.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  position: absolute;
+}
 
 body {
   background-size: cover;
   width: 100%;
   height: 100%;
-}
-
-html {
-  background: url(../images/mountainTop.jpg) no-repeat center center fixed;
-  background-size: cover;
-  position: absolute;
-}
-
-/*img {
-  height: auto;
-  width: 75%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding:20px;
-}*/
-
-button {
-  width: 120px;
-  height: 40px;
-  border: 5px solid white;
-  font-family: 'Quicksand', sans-serif;  
-  color: white;
-  font-size: 3.5em;
 }
 
 h1 {
@@ -50,8 +21,12 @@ h3 {
   color: #fff;
 }
 
+.nav-top {
+  position: fixed;
+}
+
 .tab {
-  color: #fff;
+  color: #777;
   padding: 5px 5px;
   display: inline-block;
   cursor: pointer;
@@ -73,7 +48,9 @@ h3 {
 }
 
 .medallion {
-  margin: 20px;
+  margin: 0
+  width: 75%;
+  height: auto;
   /*position: fixed;
   height: auto;
   width: 75%;
@@ -92,7 +69,8 @@ h3 {
     top: 50%;
     left: 50%;
     width: 70%;
-    height: 70%;
+    height: auto;
+    
     transform: translate(-50%, -50%);
 }
 
@@ -161,6 +139,30 @@ h3 {
   width: 75%;
   overflow: scroll;
 }
+
+.text-screen {
+  background-color: #000;
+  opacity: .3;
+}
+
+
+
+.main-image {
+  /*background: url(../images/mtn-lake.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  position: absolute;*/
+  /*background-image: url(../images/planks.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  position: relative;*/
+}
+
+
+
+ /* background: url(../images/mountainTop.jpg) no-repeat center center fixed;
+  background-size: cover;
+  position: absolute;*/
 
 @media (max-width: 800px) {
   .center-container img {
