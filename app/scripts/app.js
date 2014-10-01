@@ -19,6 +19,11 @@ modCabsApp.config(function ($stateProvider, $urlRouterProvider) {
         templateUrl: "views/about.html",
     })
 
+      .state('contact', {
+        url: "/contact",
+        templateUrl: "views/contact.html",
+    })
+
     .state('climate', {
         url: "/climate",
         templateUrl: "views/climate.html",
@@ -49,12 +54,6 @@ modCabsApp.config(function ($stateProvider, $urlRouterProvider) {
       // controller: "MainCtrl"
     })
 
-    .state('size', {
-      url: "/size",
-      templateUrl: "views/size.html",
-      // controller: "MainCtrl"
-    })
-
     .state('small', {
       url: "/small",
       templateUrl: "views/small.html",
@@ -79,3 +78,24 @@ modCabsApp.config(function ($stateProvider, $urlRouterProvider) {
       // controller: "XlargeCtrl"
     })
   });
+
+// modCabsApp.controller("PlanController", function(){
+//   this.plan = plans;
+
+// });
+
+// var plans = [
+// {
+//   name: 'small',
+//   size: '300sf',
+//   price: '$500',
+//   description: 'Small and simple, this cabin offers just what you need: a good sized deck, a dry place to sleep, a small kitchen, and enough space to hang out...if it\'s raining outside, of course.'
+// },
+// {
+//   name: 'medium',
+//     size: '500sf',
+//     price: 800,
+//     sleeps: 'sleeps: 4 adults',
+//     description: 'Cozy. This cabin gives you everything you get in the small plan, but with added elbow room. The medium is more suitable for colder climates, where you might spend a little more time indoors.'
+//   }
+// ];
